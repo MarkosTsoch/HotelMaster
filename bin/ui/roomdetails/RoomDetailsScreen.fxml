@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.roomdetails.RoomDetailsScreenController">
+   <children>
+      <Pane layoutX="137.0" layoutY="38.0" prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+         
+            <Text layoutX="38.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Availability :" />
+            <Text layoutX="378.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Utilities" />
+            <Text layoutX="38.0" layoutY="83.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Price :" />
+            <Text layoutX="38.0" layoutY="119.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Stars :" />
+            <Text layoutX="38.0" layoutY="150.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Can host :" />
+            
+
+            <TextArea fx:id="utilities" layoutX="298.0" layoutY="70.0" prefHeight="200.0" prefWidth="200.0" />
+            <Text fx:id="price" layoutX="112.0" layoutY="83.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+            <Text fx:id="availability" layoutX="112.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+            <Text fx:id="stars" layoutX="112.0" layoutY="119.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+            <Text fx:id="hostsNumber" layoutX="112.0" layoutY="150.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+            
+            <Button fx:id="photosButton" layoutX="80.0" layoutY="300.0" mnemonicParsing="false" onAction="#photosButtonAction" text="Watch Photos" />
+			<Button fx:id="roomScreen" layoutX="58.0" layoutY="329.0" mnemonicParsing="false" onAction="#roomScreenAction" text="Back To Room Screen" />
+
+            <Button fx:id="reserve" layoutX="378.0" layoutY="310.0" mnemonicParsing="false" onAction="#reserveAction" text="Reserve" />
+            
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
