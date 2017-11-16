@@ -32,19 +32,13 @@ public class Main extends Application {
         stage.setTitle("My Hotel");
         stage.centerOnScreen();
         stage.show();
-        
-        DBconnect db = new DBconnect();
-        db.createDB();
-        	
-       /* Kalios:ka8e fora pou kaleitai h main,diagrafetai h vash kai dhmiourgeitai nea me dokimastika gnwrismata */
-       /* Kalios:se epomeno update,8a mporei na proste8ei kwdikas gia na ginei dunamiko to programma me vash tis epiloges tou xrhsth (px epilogh ari8mou orofwn,dwmatiwn,admin panel) */
     }
 
 
     public static void main(String[] args) throws IOException, ClassNotFoundException {
        
 
-    	
+
 
         launch(args);
     }

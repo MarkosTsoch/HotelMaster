@@ -1,12 +1,8 @@
+
 package ui.main;
-
-/**
- * @author Kalios
- * 
- */
-
 import java.sql.*;
 import java.util.Date;
+
 
 public class DBconnect {
 
@@ -46,29 +42,29 @@ public class DBconnect {
 			st.executeUpdate("INSERT INTO Access_Levels VALUES ('1','1','1','0','1','1','0')");
 			st.executeUpdate("INSERT INTO Access_Levels VALUES ('2','1','1','1','1','1','1')");
 			st.executeUpdate("INSERT INTO users VALUES ('0','emptymail@gmail.com','admin','admin','2','"+new Timestamp(new Date().getTime())+"')");
-			st.executeUpdate("INSERT INTO rooms VALUES ('1', '1', '2', '20', '1', '0', '0')");
-			st.executeUpdate("INSERT INTO rooms VALUES ('2', '2', '2', '20', '1', '0', '0')");
-			st.executeUpdate("INSERT INTO rooms VALUES ('3', '3', '2', '20', '1', '0', '0')");
-			st.executeUpdate("INSERT INTO rooms VALUES ('101', '101', '2', '35', '0', '0', '1')");
-			st.executeUpdate("INSERT INTO rooms VALUES ('102', '102', '2', '35', '0', '0', '1')");
-			st.executeUpdate("INSERT INTO rooms VALUES ('103', '103', '2', '35', '0', '0', '1')");
-			st.executeUpdate("INSERT INTO rooms VALUES ('104', '104', '2', '35', '1', '0', '0')");
-			st.executeUpdate("INSERT INTO rooms VALUES ('105', '105', '2', '35', '1', '0', '0')");
-			st.executeUpdate("INSERT INTO rooms VALUES ('106', '106', '2', '35', '1', '0', '0')");
-			st.executeUpdate("INSERT INTO rooms VALUES ('201', '201', '2', '40', '2', '0', '1')");
-			st.executeUpdate("INSERT INTO rooms VALUES ('202', '202', '2', '40', '2', '0', '1')");
-			st.executeUpdate("INSERT INTO rooms VALUES ('203', '203', '2', '40', '2', '0', '1')");
-			st.executeUpdate("INSERT INTO rooms VALUES ('204', '204', '2', '40', '2', '0', '0')");
-			st.executeUpdate("INSERT INTO rooms VALUES ('205', '205', '2', '40', '2', '0', '0')");
-			st.executeUpdate("INSERT INTO rooms VALUES ('206', '206', '2', '40', '2', '0', '0')");
-			st.executeUpdate("INSERT INTO rooms VALUES ('301', '301', '2', '50', '3', '0', '1')");
-			st.executeUpdate("INSERT INTO rooms VALUES ('302', '302', '2', '50', '3', '0', '1')");
-			st.executeUpdate("INSERT INTO rooms VALUES ('303', '303', '2', '50', '3', '0', '1')");
-			st.executeUpdate("INSERT INTO rooms VALUES ('304', '304', '2', '50', '3', '0', '1')");
-			st.executeUpdate("INSERT INTO rooms VALUES ('305', '305', '2', '50', '3', '0', '1')");
-			st.executeUpdate("INSERT INTO rooms VALUES ('306', '306', '2', '50', '3', '0', '1')");
-			st.executeUpdate("INSERT INTO rooms VALUES ('401', 'Wedding Suite', '2', '250', '4', '1', '1')");
-			st.executeUpdate("INSERT INTO rooms VALUES ('402', 'Presidential Suite', '2', '250', '4', '1', '1')");
+			st.executeUpdate("INSERT INTO rooms VALUES ('1', '1', '2', '250', '1', '0', '0')");
+			st.executeUpdate("INSERT INTO rooms VALUES ('2', '2', '2', '250', '1', '0', '0')");
+			st.executeUpdate("INSERT INTO rooms VALUES ('3', '3', '2', '250', '1', '0', '0')");
+			st.executeUpdate("INSERT INTO rooms VALUES ('101', '101', '2', '250', '1', '0', '0')");
+			st.executeUpdate("INSERT INTO rooms VALUES ('102', '102', '2', '250', '1', '0', '0')");
+			st.executeUpdate("INSERT INTO rooms VALUES ('103', '103', '2', '250', '1', '0', '0')");
+			st.executeUpdate("INSERT INTO rooms VALUES ('104', '104', '2', '250', '1', '0', '0')");
+			st.executeUpdate("INSERT INTO rooms VALUES ('105', '105', '2', '250', '1', '0', '0')");
+			st.executeUpdate("INSERT INTO rooms VALUES ('106', '106', '2', '250', '1', '0', '0')");
+			st.executeUpdate("INSERT INTO rooms VALUES ('201', '201', '2', '250', '1', '0', '0')");
+			st.executeUpdate("INSERT INTO rooms VALUES ('202', '202', '2', '250', '1', '0', '0')");
+			st.executeUpdate("INSERT INTO rooms VALUES ('203', '203', '2', '250', '1', '0', '0')");
+			st.executeUpdate("INSERT INTO rooms VALUES ('204', '204', '2', '250', '1', '0', '0')");
+			st.executeUpdate("INSERT INTO rooms VALUES ('205', '205', '2', '250', '1', '0', '0')");
+			st.executeUpdate("INSERT INTO rooms VALUES ('206', '206', '2', '250', '1', '0', '0')");
+			st.executeUpdate("INSERT INTO rooms VALUES ('301', '301', '2', '250', '1', '0', '0')");
+			st.executeUpdate("INSERT INTO rooms VALUES ('302', '302', '2', '250', '1', '0', '0')");
+			st.executeUpdate("INSERT INTO rooms VALUES ('303', '303', '2', '250', '1', '0', '0')");
+			st.executeUpdate("INSERT INTO rooms VALUES ('304', '304', '2', '250', '1', '0', '0')");
+			st.executeUpdate("INSERT INTO rooms VALUES ('305', '305', '2', '250', '1', '0', '0')");
+			st.executeUpdate("INSERT INTO rooms VALUES ('306', '306', '2', '250', '1', '0', '0')");
+			st.executeUpdate("INSERT INTO rooms VALUES ('401', '401', '2', '250', '1', '0', '0')");
+			st.executeUpdate("INSERT INTO rooms VALUES ('402', '402', '2', '250', '1', '0', '0')");
 			
 			
 		}catch(Exception ex){
